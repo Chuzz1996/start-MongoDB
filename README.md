@@ -10,39 +10,39 @@
 
    1. Sign in and build a new cluster
 
-   ![](buildCluster.png)
+   ![](images/buildCluster.png)
 
    2. Select a provider and location
 
-   ![](selectCluster.png)
+   ![](images/selectCluster.png)
 
    3. We named and created the cluster
 
-      ![](createCluster.png)
+      ![](images/createCluster.png)
 
    4. We waiting for cluster creating
 
-      ![](cluster.png)
+      ![](images/cluster.png)
 
    5. Add a Whitelist to connect
 
-      ![](addIP.png)
+      ![](images/addIP.png)
 
-      ![](addWhitelist.png)
+      ![](images/addWhitelist.png)
 
    6. We're going to security and create a new user
 
-      ![](addUser.png)
+      ![](images/addUser.png)
 
-      ![](newUser.png)
+      ![](images/newUser.png)
 
    7. Select your connection mode
 
-      ![](clusterConnection.png)
+      ![](images/clusterConnection.png)
 
    8. Go to your Terminal and connect
 
-      ![](connection.png)
+      ![](images/connection.png)
 
       
 
