@@ -16,11 +16,11 @@
 
    ![](images/selectCluster.png)
 
-   3. We named and created the cluster
+   3. Name and created the cluster
 
       ![](images/createCluster.png)
 
-   4. We waiting for cluster creating
+   4. Wait while the cluster is created
 
       ![](images/cluster.png)
 
@@ -30,7 +30,7 @@
 
       ![](images/addWhitelist.png)
 
-   6. We're going to security and create a new user
+   6. Add users to the cluster
 
       ![](images/addUser.png)
 
@@ -63,6 +63,7 @@
    db.teams.insertOne({name:"Atletico Nacional"}); 
    db.teams.insertOne({name:"Millonarios",city:"Bogota"});
    db.teams.insertOne({_id:"1cdP",name:"America",city:"Cali"});
+   db.teams.insertMany([{name:"Cali",city:"Cali"},{name:"Santa fe",city:"Bogota"}]);
    ```
 
 3. Basic queries
@@ -96,13 +97,13 @@
    load("loadMovieDetailsDataset.js");
    ```
 
-2. We're going to movie database and consult how many movies has Drama in their genres
+2. We're going to movie database and query for how many movies has Drama in their genres
 
    ```javascript
    db.movieDetails.find({"genres":{$in:["Drama"]}}).count()
    ```
 
-3. Consult the titles of the movies that won two awards.
+3. Query the titles of the movies that won two awards.
 
    ```javascript
    db.movieDetails.find({"awards.wins":2},{"title":1}).pretty()
