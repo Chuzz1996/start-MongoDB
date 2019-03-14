@@ -8,6 +8,8 @@
     
     configure connection 
     https://docs.atlas.mongodb.com/mongo-shell-connection/
+    
+    go to C:\Program Files\MongoDB\Server\4.0\bin
 
 2. Build a new cluster:
 
