@@ -10,6 +10,8 @@
     https://docs.atlas.mongodb.com/mongo-shell-connection/
     
     go to C:\Program Files\MongoDB\Server\4.0\bin
+    
+    https://www.muygeek.net/msvcp140-dll/
 
 2. Build a new cluster:
 
