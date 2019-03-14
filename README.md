@@ -5,6 +5,9 @@
 1. Create a user in mongoDB Atlas:
 
     https://www.mongodb.com/cloud/atlas
+    
+    configure connection 
+    https://docs.atlas.mongodb.com/mongo-shell-connection/
 
 2. Build a new cluster:
 
